@@ -24,6 +24,11 @@ namespace CheckOut
             InitializeComponent();
             GetProduct();
             ListProducts.ItemsSource = ProdList;
+            Step2Layout.IsVisible = false;
+
+            Step3Layout.IsVisible = false;
+
+            Step1Layout.IsVisible = true;
             //BindingContext = this;
 
 
@@ -78,6 +83,8 @@ namespace CheckOut
             Step3Layout.IsVisible = false;
 
             Step1Layout.IsVisible = false;
+            INStep1.BackgroundColor = Color.FromHex("#443e42");
+
 
         }
 
@@ -181,7 +188,7 @@ namespace CheckOut
         {
 
 
-            // var button = sender as Button;
+            
             var remove = sender as Image;
             var product = remove.BindingContext as Product;
             ProdList.Remove(product);
