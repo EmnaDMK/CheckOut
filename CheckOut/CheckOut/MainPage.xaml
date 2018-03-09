@@ -8,14 +8,76 @@
         <StackLayout Orientation="Vertical">
 
 
-      
+
+
+        <StackLayout Orientation="Horizontal" Padding="0,25,0,0" HorizontalOptions="CenterAndExpand">
+
+            <StackLayout  HorizontalOptions="Start" >
+
+                <Frame x:Name="EXStep1" CornerRadius="15" BackgroundColor="#443e42" Padding="1"  HasShadow="False" WidthRequest="30" HeightRequest="30">
+
+                    <Frame x:Name="INStep1" BackgroundColor="White" HasShadow="False" CornerRadius="15"  WidthRequest="30">
+
+                    </Frame>
+
+                </Frame>
+
+            </StackLayout>
+
+            <StackLayout Padding="10,20,10,0">
+
+                <BoxView HeightRequest="0.5" WidthRequest="80" BackgroundColor="Silver"></BoxView>
+
+            </StackLayout>
+
+            <StackLayout  HorizontalOptions="Center">
+
+                <Frame x:Name="EXStep2" CornerRadius="15" BackgroundColor="Gainsboro" Padding="1,1,1,1"  HasShadow="False" WidthRequest="30" HeightRequest="30">
+
+                    <Frame x:Name="INStep2" BackgroundColor="White" HasShadow="False" CornerRadius="15"  WidthRequest="30">
+
+                    </Frame>
+
+                </Frame>
+
+            </StackLayout>
+
+            <StackLayout Padding="10,20,10,0">
+
+                <BoxView HeightRequest="0.5" WidthRequest="80" BackgroundColor="Silver"></BoxView>
+
+            </StackLayout>
+
+            <StackLayout  HorizontalOptions="End" >
+
+                <Frame x:Name="EXStep3" CornerRadius="15" BackgroundColor="Silver" Padding="1,1,1,1" HasShadow="False" WidthRequest="30" HeightRequest="30">
+
+                    <Frame x:Name="INStep3" BackgroundColor="White" HasShadow="False" CornerRadius="15"  WidthRequest="30">
+
+                    </Frame>
+
+                </Frame>
+
+            </StackLayout>
+
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Padding="53,0,33,0" >
+
+            <Label x:Name="step1" TextColor="#443e42"  Text="1" HorizontalOptions="StartAndExpand"></Label>
+
+            <Label x:Name="step2" TextColor="Silver" Text="     2" HorizontalOptions="CenterAndExpand"></Label>
+
+            <Label x:Name="stepConfirm" TextColor="Silver" Text="Confirm" HorizontalOptions="EndAndExpand"></Label>
+
+
+
+        </StackLayout>
 
 
 
 
-
-
-        <StackLayout Padding="10,20" >
+        <!--<StackLayout Padding="10,20" >
 
                 <local:StepProgressBarControl  StepColor="#443e42" Steps="3" StepSelected="1" x:Name="stepBar"/>
 
@@ -51,7 +113,7 @@
 
             </StackLayout>
 
-            </StackLayout>
+            </StackLayout>-->
 
         <StackLayout x:Name="Step1Layout" Orientation="Vertical">
 
