@@ -52,14 +52,14 @@ namespace CheckOut
                     Name = "Gucci er",
                     ShortDescription = "Almost New",
                     Price = "3000.00 SAR",
-                    ImageURL = "Pic1.png"
+                    ImageURL = "Pic2.png"
                 },
                 new Product
                 {
                     Name = "Gucci Hand Bag Light Brown",
                     ShortDescription = "Almost New",
                     Price = "3000.00 SAR",
-                    ImageURL = "Pic1.png"
+                    ImageURL = "Pic2.png"
                 },
 
                 new Product

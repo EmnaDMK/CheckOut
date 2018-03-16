@@ -171,7 +171,7 @@
 
                                     <StackLayout >
 
-                                        <Image Source="BankTransfer.png"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="30" WidthRequest="120"></Image>
+                                        <Image Source="Bank_Transfer.png"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="30" WidthRequest="120"></Image>
 
                                         <Label Text="Bank Transfer" HorizontalOptions="Center"  FontSize="10" TextColor="#443e42"></Label>
 
@@ -516,7 +516,7 @@
 
                                         </Image>
 
-                                        <StackLayout HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="2">
+                                    <StackLayout HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="2">
 
                                             <Label Text="{Binding Name}" TextColor="#44454a"  FontSize="14" />
 
